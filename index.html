@@ -76,7 +76,7 @@
   .section-head{max-width:640px;margin:0 0 40px;}
   .section-tag{font-family:var(--mono);font-size:0.72rem;letter-spacing:0.24em;text-transform:uppercase;color:var(--primary);}
   .section-title{font-size:clamp(1.6rem,3vw,2.4rem);font-weight:700;margin-top:10px;}
-  .section-sub{margin-top:14px;color:var(--text-muted);font-size:1rem;line-height:1.65;}
+  .section-sub{margin-top:14px;color:var(--text-muted);font-size:1.1rem;line-height:1.65;}
 
   .card{
     background:var(--bg-panel-soft);
@@ -156,7 +156,7 @@
   }
   .hero-sub{
     margin:20px auto 0;max-width:620px;color:var(--text-muted);
-    font-size:1.05rem;line-height:1.7;
+    font-size:1.2rem;line-height:1.7;
   }
   .hero-actions{display:flex;gap:14px;justify-content:center;margin-top:34px;flex-wrap:wrap;}
   .hero-note{margin-top:22px;font-family:var(--mono);font-size:0.75rem;color:var(--text-dim);letter-spacing:0.05em;}
@@ -183,7 +183,7 @@
   .track-mode{font-family:var(--mono);font-size:0.7rem;letter-spacing:0.14em;text-transform:uppercase;color:var(--text-dim);margin-bottom:18px;display:block;}
   .ps-list{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:10px;}
   .ps-list li{
-    font-size:0.9rem;color:var(--text-muted);padding-left:18px;position:relative;line-height:1.5;
+    font-size:1.02rem;color:var(--text-muted);padding-left:18px;position:relative;line-height:1.5;
   }
   .ps-list li::before{content:"›";position:absolute;left:0;color:var(--primary);font-family:var(--mono);}
   .ps-more{margin-top:14px;font-family:var(--mono);font-size:0.75rem;color:var(--text-dim);}
@@ -196,7 +196,7 @@
   .prize-card{display:flex;flex-direction:column;gap:12px;min-width:0;}
   .prize-value{font-size:1.35rem;font-weight:700;color:var(--primary);}
   .prize-name{font-size:0.95rem;font-weight:600;}
-  .prize-desc{font-size:0.85rem;color:var(--text-muted);line-height:1.55;}
+  .prize-desc{font-size:0.96rem;color:var(--text-muted);line-height:1.55;}
   .prize-total{
     margin-top:24px;display:flex;align-items:center;justify-content:space-between;flex-wrap:wrap;gap:12px;
     border:1px dashed var(--border-strong);border-radius:var(--radius);padding:20px 26px;
@@ -230,7 +230,7 @@
   .project-body{display:flex;flex-direction:column;gap:10px;flex:1;padding:2px 8px 8px;}
   .project-team{font-family:var(--mono);font-size:0.68rem;letter-spacing:0.1em;text-transform:uppercase;color:var(--primary-soft);}
   .project-title{font-size:1.1rem;font-weight:700;}
-  .project-desc{font-size:0.85rem;color:var(--text-muted);line-height:1.55;flex:1;}
+  .project-desc{font-size:0.96rem;color:var(--text-muted);line-height:1.55;flex:1;}
   .project-foot{display:flex;align-items:center;justify-content:space-between;font-family:var(--mono);font-size:0.72rem;color:var(--text-dim);border-top:1px solid var(--border);padding-top:12px;}
   .project-upvotes{color:var(--primary);display:flex;align-items:center;gap:5px;}
   .project-link{color:var(--primary-soft);}
@@ -260,7 +260,7 @@
   footer{padding:60px 0 50px;border-top:1px solid var(--border);}
   .footer-inner{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:22px;}
   .footer-brand{font-family:var(--mono);font-weight:700;font-size:1rem;color:var(--text);}
-  .footer-note{margin-top:8px;font-size:0.82rem;color:var(--text-dim);max-width:420px;line-height:1.6;}
+  .footer-note{margin-top:8px;font-size:0.92rem;color:var(--text-dim);max-width:420px;line-height:1.6;}
   .footer-meta{font-family:var(--mono);font-size:0.72rem;color:var(--text-dim);text-align:right;line-height:1.8;}
   .footer-meta span{color:var(--primary-soft);}
 
@@ -285,7 +285,7 @@
   .term-title-text{margin-left:8px;font-size:0.78rem;color:var(--text-dim);letter-spacing:0.04em;}
   .term-body{
     flex:1;overflow-y:auto;padding:24px 40px;
-    font-size:0.92rem;line-height:1.7;color:#c9fdfd;
+    font-size:1rem;line-height:1.7;color:#c9fdfd;
   }
   .term-body::-webkit-scrollbar{width:10px;}
   .term-body::-webkit-scrollbar-thumb{background:rgba(6,249,249,0.25);border-radius:6px;}
@@ -325,6 +325,8 @@
 <body>
 
 
+
+
 <div class="grid-bg"></div>
 
 <div id="guiView">
@@ -358,7 +360,7 @@
           <span class="hero-version">2.0<span class="cursor"></span></span>
         </h1>
         <p class="hero-tagline">Bringing Innovation On-Stage_</p>
-        <p class="hero-sub">A proposal to reboot the CSED Department's flagship hackathon at Thapar Institute. This page is a portfolio of what the last edition shipped &mdash; the problem statements, the prizes, the sponsors and the projects &mdash; and the case for building BIOS 2.0 on top of it.</p>
+        <p class="hero-sub">A proposal to relaunch CSED's flagship hackathon at Thapar.<br>A showcase of last year's problem statements, prizes, sponsors and top projects.</p>
         <div class="hero-actions">
           <a href="#projects" class="btn btn-primary">View Last Year's Projects</a>
           <button class="btn btn-ghost" onclick="setView('term')">Open Terminal Mode</button>
@@ -946,6 +948,7 @@
 
 })();
 </script>
+
 
 </body>
 </html>
